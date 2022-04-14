@@ -1,0 +1,10 @@
+To obtain the data please go to the following link:
+
+https://www.kaggle.com/datasets/sameeharahman/preprocessed-snake-images
+
+As the file size is quite big, I couldn't upload to git hub. 
+
+For the training of the CNN I only used images of Class 3 (Class 3: Storeria dekayi - DeKay's Brown snake) 
+and Class 5(Class 5: Crotalus atrox - Western Diamondback rattlesnake).
+
+I plan to train the CNN further in the future, to include the other 3 species.   
