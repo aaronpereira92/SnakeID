@@ -46,3 +46,11 @@ Where
 
 5. Snake Image data:
 - `_snakes_american_data/read_first.txt`: Just a text file containing the link to the image dataset and which snake classes were used. The file was too large to upload on GitHub.   
+
+
+## Database
+
+- Got the images from the following link:
+https://www.kaggle.com/datasets/sameeharahman/preprocessed-snake-images
+
+
