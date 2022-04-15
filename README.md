@@ -53,4 +53,7 @@ Where
 - Got the images from the following link:
 https://www.kaggle.com/datasets/sameeharahman/preprocessed-snake-images
 
+## Project Presentation
+For the google slides presentation please click on the following link:
 
+https://docs.google.com/presentation/d/1MfyzNY2Sk8ZAZ4uEMxidvSpVP5Pd-5SAvDGExghZOeo/edit?usp=sharing
