@@ -12,16 +12,17 @@ Here are the folders and their respective files:
 
 This folder contains the jupyter notebooks that I used to build the CNNs and preprocess data and a final .py file.
 
-- `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`: This jupyter notebook was used to preprocess image data and build the CNNs, as well as to evaluate them.
+- `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`: notebook used to preprocess image data and build the CNNs, as well as to evaluate them.
 
-- `_scripts_and_notebooks/2_snakeID_function_notebook.ipynb`: This jupyter notebook was used to develop the final function which will be used to call the trained CNN and analyze new images. 
+- `_scripts_and_notebooks/2_snakeID_function_notebook.ipynb`: notebook used to develop the final function which calls the trained CNN and analyzes new images. 
 
 - `_scripts_and_notebooks/3_main_snakeID.ipynb`: This jupyter notebook was used to demonstrate that the function works
 
 - `_scripts_and_notebooks/main_snakeID.py`: The final .py script that contains the function to be run in order to analyze new images. 
 
 2. Functions folder  `_functions`:
-- `_functions/functions.py `: This contains the function **SnakeID** which needs to be imported in order to to run the `main_snakeID.py` for analysing new images. Just import by running this :
+- `_functions/functions.py `: This contains the function **SnakeID** which needs to be imported in order to to run the `main_snakeID.py` for analysing new images. 
+Just import by running this :
 ```python
 from functions import snakeID
 ``` 
