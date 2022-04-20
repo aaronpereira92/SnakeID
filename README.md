@@ -63,3 +63,7 @@ https://www.kaggle.com/datasets/sameeharahman/preprocessed-snake-images
 For the google slides presentation please click on the following link:
 
 https://docs.google.com/presentation/d/1MfyzNY2Sk8ZAZ4uEMxidvSpVP5Pd-5SAvDGExghZOeo/edit?usp=sharing
+
+## SnakeID output
+
+![alt text](https://github.com/aaronpereira92/SnakeID/blob/fdd590e0055d544ba6b6eb85462005fac3f1af6a/_images/snake_id.jpg)
