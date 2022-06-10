@@ -21,27 +21,27 @@ Here are the folders and their respective files:
 
 - #### functions folder:
 
-1. `_functions/functions.py `: This contains the function **SnakeID** which needs to be imported in order to to analyze new images.  
+    1. `_functions/functions.py `: This contains the function **SnakeID** which needs to be imported in order to to analyze new images.  
 
-    Just import by running this :
-    ```python
-    from functions import snakeID
-    ``` 
-    Note: For more information please refer to notebook `_scripts_and_notebooks/3_main_snakeID.ipynb`
+        Just import by running this :
+        ```python
+        from functions import snakeID
+        ``` 
+        Note: For more information please refer to notebook `_scripts_and_notebooks/3_main_snakeID.ipynb`
 
 - #### CNN models and weights folder:
-1. `_cnn_models_and_weights/model_first_try.json` : first CNN that I trained which got a validation accuarcy of about 0.83.
-2. `_cnn_models_and_weights/model_second_try.json`: second CNN that I trained which got a validation accuracy of about 0.90 
-3. `_cnn_models_and_weights/first_try_weights.h5`: the weights of the first CNN 
-4. `_cnn_models_and_weights/second_try_weights.h5`: weights of the second CNN. 
+    1. `_cnn_models_and_weights/model_first_try.json` : first CNN that I trained which got a validation accuarcy of about 0.83.
+    2. `_cnn_models_and_weights/model_second_try.json`: second CNN that I trained which got a validation accuracy of about 0.90 
+    3. `_cnn_models_and_weights/first_try_weights.h5`: the weights of the first CNN 
+    4. `_cnn_models_and_weights/second_try_weights.h5`: weights of the second CNN. 
 
-    Note: For more information on how to load them please refer to the notebook `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`
+        Note: For more information on how to load them please refer to notebook `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`
 
 - #### Images folder:
-1. `_images/snake_id.jpg`: This is just an image file of the plot output of the validation analysis, which shows the results of idenification. The plots of images which have a green border were correctly predicted, where as red border is wrong.
+    1. `_images/snake_id.jpg`: This is just an image file of the plot output of the validation analysis, which shows the results of idenification. The plots of images which have a green border were correctly predicted, where as red border is wrong.
 
 - #### Snake Image data:
-1. `_snakes_american_data/read_first.txt`: Just a text file containing the link to the image dataset and which snake classes were used.
+    1. `_snakes_american_data/read_first.txt`: Just a text file containing the link to the image dataset and which snake classes were used.
 
 
 ## Database
