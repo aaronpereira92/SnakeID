@@ -27,18 +27,7 @@ Here are the folders and their respective files:
   ```python
   from functions import snakeID
   ``` 
-
-  To use the function you need to pass arguments:
-  ```python
-  snakeID(model_name, weights, directory, no_images = 1)
-  ``` 
-  Where:
-   `model_name` is the filename(with extension) of the model to be entered as a string within quotes'', 
-   `weights` is the filename of the model's weights to be entered as strings, 
-   `directory` is the filepath of to the **subfolder** of images to be analyzed to be entered as strings, 
-   no_images  is the number of images to be analyzed entered as integer. 
-
-
+Note: For more information please refer to notebook `_scripts_and_notebooks/3_main_snakeID.ipynb`
 
 - #### CNN models and weights folder:
 1. `_cnn_models_and_weights/model_first_try.json` : first CNN that I trained which got a validation accuarcy of about 0.83.
@@ -47,7 +36,7 @@ Here are the folders and their respective files:
 4. `_cnn_models_and_weights/second_try_weights.h5`: weights of the second CNN. 
 Note: For more information on how to load them please refer to the notebook `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`
 
-- #### Other Images folder:
+- #### Images folder:
 1. `_images/snake_id.jpg`: This is just an image file of the plot output of the validation analysis, which shows the results of idenification. The plots of images which have a green border were correctly predicted, where as red border is wrong.
 
 - #### Snake Image data:
