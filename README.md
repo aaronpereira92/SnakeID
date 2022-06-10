@@ -10,13 +10,13 @@ Here are the folders and their respective files:
 
 - #### Scripts and Notebooks folder:
 
-1. `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`: notebook to preprocess image data, build the CNNs, and evaluation.
+    1. `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`: notebook to preprocess image data, build the CNNs, and evaluation.
 
-2. `_scripts_and_notebooks/2_snakeID_function_notebook.ipynb`: to develop the final function which uses trained CNN to analyze new images. 
+    2. `_scripts_and_notebooks/2_snakeID_function_notebook.ipynb`: to develop the final function which uses trained CNN to analyze new images. 
 
-3. `_scripts_and_notebooks/3_main_snakeID.ipynb`: This jupyter notebook was used to demonstrate that the function works
+    3. `_scripts_and_notebooks/3_main_snakeID.ipynb`: This jupyter notebook was used to demonstrate that the function works
 
-4. `_scripts_and_notebooks/main_snakeID.py`: The final .py script that contains the function to be run in order to analyze new images. 
+    4. `_scripts_and_notebooks/main_snakeID.py`: The final .py script that contains the function to be run in order to analyze new images. 
 
 
 - #### functions folder:
@@ -34,7 +34,8 @@ Here are the folders and their respective files:
 2. `_cnn_models_and_weights/model_second_try.json`: second CNN that I trained which got a validation accuracy of about 0.90 
 3. `_cnn_models_and_weights/first_try_weights.h5`: the weights of the first CNN 
 4. `_cnn_models_and_weights/second_try_weights.h5`: weights of the second CNN. 
-Note: For more information on how to load them please refer to the notebook `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`
+
+    Note: For more information on how to load them please refer to the notebook `_scripts_and_notebooks/1_building_testing_CNN_notebook.ipynb`
 
 - #### Images folder:
 1. `_images/snake_id.jpg`: This is just an image file of the plot output of the validation analysis, which shows the results of idenification. The plots of images which have a green border were correctly predicted, where as red border is wrong.
