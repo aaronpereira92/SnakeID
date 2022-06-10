@@ -23,10 +23,10 @@ Here are the folders and their respective files:
 
 1. `_functions/functions.py `: This contains the function **SnakeID** which needs to be imported in order to to analyze new images.  
 
-  Just import by running this :
-  ```python
-  from functions import snakeID
-  ``` 
+    Just import by running this :
+    ```python
+    from functions import snakeID
+    ``` 
 Note: For more information please refer to notebook `_scripts_and_notebooks/3_main_snakeID.ipynb`
 
 - #### CNN models and weights folder:
