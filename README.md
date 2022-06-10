@@ -27,7 +27,7 @@ Here are the folders and their respective files:
     ```python
     from functions import snakeID
     ``` 
-Note: For more information please refer to notebook `_scripts_and_notebooks/3_main_snakeID.ipynb`
+    Note: For more information please refer to notebook `_scripts_and_notebooks/3_main_snakeID.ipynb`
 
 - #### CNN models and weights folder:
 1. `_cnn_models_and_weights/model_first_try.json` : first CNN that I trained which got a validation accuarcy of about 0.83.
